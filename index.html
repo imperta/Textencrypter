@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media-screens.css" />
+    <link
+      rel="shortcut icon"
+      href="./sources/Logo.png"
+      type="image/x-icon"
+    />
+    <title>Encrypter</title>
+  </head>
+  <body>
+    <header>
+      <img src="./sources/Logo.png" alt="alura-logo" />
+    </header>
+
+    <main>
+      <div class="main-container">
+        <content class="content-left">
+          <textarea
+            placeholder="Ingrese el texto aqui..."
+            class="text-box"
+          ></textarea>
+          <div class="alert">
+            <img
+              src="./sources/bi_exclamation-circle-fill.svg"
+              alt="bi_exclamation-circle"
+            />
+            <span>Solo letras minusculas y sin acentos</span>
+          </div>
+          <div class="buttons-actions">
+            <button class="order-buttons-in btn-enc">
+              <span>Encriptar</span>
+            </button>
+            <button class="order-buttons-out btn-desenc">
+              <span>Desencriptar</span>
+            </button>
+          </div>
+        </content>
+        <content class="content-right">
+          <div class="results-container">
+            <img src="./sources/Muñeco22.svg" alt="" class="doll" />
+            <h3>Ningun mensaje fue encontrado</h3>
+            <span>Ingresa el texto que desees encriptar o desencriptar.</span>
+          </div>
+          <div class="results-container-show">
+            <p class="results"></p>
+          </div>
+          <div class="copy-results">
+            <input type="button" class="btn-copy" value="Copiar">
+          </div>
+        </content>
+      </div>
+    </main>
+
+    <footer>
+      <span>Hecho por <a target="_blank" href="https://app.aluracursos.com/user/justperta">Perta</a ></span>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
