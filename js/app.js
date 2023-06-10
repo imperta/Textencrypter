@@ -45,6 +45,7 @@ textBox.addEventListener("input", function () {
   } else {
     munieco.classList.remove("ocultar");
     resultsStatus.classList.remove("ocultar");
+    textResult.classList.add("ocultar");
   }
 });
 
